@@ -1,0 +1,16 @@
+{
+  "name": "mmind/bl_customgrid",
+  "type": "magento-module",
+  "description": "Enhanced Admin Grids Extension for Magento",
+  "homepage": "https://github.com/magemindcom/BL_CustomGrid",
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "authors":[
+    {
+      "name": "Mage Mind",
+      "email": "tech@magemind.com"
+    }
+  ]
+}
+

@@ -1,0 +1,44 @@
+<?php
+$_helper = $this->helper('catalog/output');
+$_product = $this->getProduct(); ?>
+<div class="modal-content">
+    <div class="modal-header">
+    	<button type="button" class="action-close close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title"><a href="<?php echo $_product->getUrl() ?>"><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></a></h4>
+    </div>
+    <div class="modal-body">
+        <div class="product-content"><?php echo $this->getChildHtml('product.info') ?></div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+</div>
+
+
+<style type="text/css">
+.botao-ver-preco {
+    background: #0cb35e;
+    padding: 9px 14px 8px 17px;
+    border-radius: 3px;
+    border-bottom: 1px solid #9a9a9a;
+    color: #fff;
+    border-right: 1px solid #9a9a9a;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Open Sans",sans-serif;
+    text-transform: uppercase;
+    width: 217px;
+    margin: auto;
+}
+.botao-ver-preco a {
+color: #fff;
+}
+</style>
+<p class="botao-ver-preco">
+<a href="https://salomaofolheados.com.br/customer/account/login/" title="<?php echo $_productNameStripped; ?>">Entrar para ver o preço</a></p>
+<?php if(Mage::getSingleton('customer/session')->isLoggedIn()):endif ?>
+<style type="text/css">
+.botao-ver-preco {
+display:none;
+}
+</style>

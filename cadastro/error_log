@@ -1,0 +1,15 @@
+[15-Mar-2021 13:05:52 UTC] PHP Notice:  Undefined index: form_name in /home/u587262405/domains/crgr.com.br/public_html/cadastro/sendmail.php on line 12
+[15-Mar-2021 13:05:52 UTC] PHP Notice:  Undefined index: form_email in /home/u587262405/domains/crgr.com.br/public_html/cadastro/sendmail.php on line 13
+[15-Mar-2021 13:05:52 UTC] PHP Notice:  Undefined index: form_cnpj in /home/u587262405/domains/crgr.com.br/public_html/cadastro/sendmail.php on line 14
+[15-Mar-2021 13:05:52 UTC] PHP Notice:  Undefined index: form_ddd in /home/u587262405/domains/crgr.com.br/public_html/cadastro/sendmail.php on line 15
+[15-Mar-2021 13:05:52 UTC] PHP Notice:  Undefined index: form_phone in /home/u587262405/domains/crgr.com.br/public_html/cadastro/sendmail.php on line 15
+[15-Mar-2021 13:05:52 UTC] PHP Notice:  Undefined index: form_empresa in /home/u587262405/domains/crgr.com.br/public_html/cadastro/sendmail.php on line 16
+[19-Mar-2021 16:26:41 UTC] PHP Notice:  Undefined index: form_cep in /home/u587262405/domains/crgr.com.br/public_html/cadastro/sendmail.php on line 17
+[19-Mar-2021 16:26:41 UTC] PHP Notice:  Undefined index: form_estado in /home/u587262405/domains/crgr.com.br/public_html/cadastro/sendmail.php on line 18
+[19-Mar-2021 16:26:41 UTC] PHP Notice:  Undefined index: form_cidade in /home/u587262405/domains/crgr.com.br/public_html/cadastro/sendmail.php on line 19
+[19-Mar-2021 16:26:41 UTC] PHP Notice:  Undefined index: form_bairro in /home/u587262405/domains/crgr.com.br/public_html/cadastro/sendmail.php on line 20
+[19-Mar-2021 16:26:41 UTC] PHP Notice:  Undefined index: form_rua in /home/u587262405/domains/crgr.com.br/public_html/cadastro/sendmail.php on line 21
+[19-Mar-2021 16:26:41 UTC] PHP Notice:  Undefined index: form_numero in /home/u587262405/domains/crgr.com.br/public_html/cadastro/sendmail.php on line 22
+[19-Mar-2021 16:29:15 UTC] PHP Notice:  Undefined index: form_cep in /home/u587262405/domains/crgr.com.br/public_html/cadastro/sendmail.php on line 17
+[19-Mar-2021 16:35:32 UTC] PHP Notice:  Undefined index: form_conheceu in /home/u587262405/domains/crgr.com.br/public_html/cadastro/sendmail.php on line 23
+[19-Mar-2021 16:36:16 UTC] PHP Notice:  Undefined index: form_conheceu in /home/u587262405/domains/crgr.com.br/public_html/cadastro/sendmail.php on line 23

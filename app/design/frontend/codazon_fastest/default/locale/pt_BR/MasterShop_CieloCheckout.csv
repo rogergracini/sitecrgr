@@ -1,0 +1,168 @@
+"*Caso este status persista após 30 minutos, será necessário cancelar esta venda*","*Caso este status persista após 30 minutos, será necessário cancelar esta venda*"
+"<div style=""padding: 5px; border: 1px solid #dcdcdc; margin-bottom: 20px; background: #e8e8e8""><strong>Configurações para o gateway Checkout Cielo.</strong></div>","<div style=""padding: 5px; border: 1px solid #dcdcdc; margin-bottom: 20px; background: #e8e8e8""><strong>Configurações para o gateway Checkout Cielo.</strong></div>"
+"Bandeiras de cartões disponíveis durante a finalização da compra. Somente para fins de exibição, deve corresponder à configurações feitas no backoffice da Cielo.","Bandeiras de cartões disponíveis durante a finalização da compra. Somente para fins de exibição, deve corresponder à configurações feitas no backoffice da Cielo."
+"Identificador da loja no Checkout Cielo, disponível no Backoffice no menu Configuração / Dados Cadastrais","Identificador da loja no Checkout Cielo, disponível no Backoffice no menu Configuração / Dados Cadastrais"
+"Pagamento expirado, após 15 dias sem captura pelo lojista.","Pagamento expirado, após 15 dias sem captura pelo lojista."
+"Somente letras e números, máximo de 13 caracteres.","Somente letras e números, máximo de 13 caracteres."
+"Título exibido na fatura do portador do cartão (soft-descriptor). Disponível para bandeiras Visa e MasterCard, dependente de disponibilidade do serviço e da operadora de cartões.","Título exibido na fatura do portador do cartão (soft-descriptor). Disponível para bandeiras Visa e MasterCard, dependente de disponibilidade do serviço e da operadora de cartões."
+# Compra,# Compra
+%d compras tiveram o método de pagamento atualizado para a nova versão do módulo.,%d compras tiveram o método de pagamento atualizado para a nova versão do módulo.
+%d transações foram convertidas para a nova versão do módulo.,%d transações foram convertidas para a nova versão do módulo.
+%s - Expired since %s,%s - Expirada desde %s
+%s - Valid until %s,%s - Válida até %s
+,
+A compra não pôde ser cancelada/reembolsada automaticamente.,A compra não pôde ser cancelada/reembolsada automaticamente.
+A pasta '%s' não pôde ser apagada.,A pasta '%s' não pôde ser apagada.
+A quantidade máxima de produtos configurada (%d) para a ativação do método de pagamento foi ultrapassada (%d).,A quantidade máxima de produtos configurada (%d) para a ativação do método de pagamento foi ultrapassada (%d).
+A quantidade mínima de produtos configurada (%d) para a ativação do método de pagamento não foi atingida (%d).,A quantidade mínima de produtos configurada (%d) para a ativação do método de pagamento não foi atingida (%d).
+Acesso incorreto à plataforma de pagamentos. Por favor verifique se as credenciais de acesso foram definidas corretamente.,Acesso incorreto à plataforma de pagamentos. Por favor verifique se as credenciais de acesso foram definidas corretamente.
+Adicionar,Adicionar
+Aguardando autenticação e pagamento via página externa,Aguardando autenticação e pagamento via página externa
+American Express,American Express
+Aperte CTRL + Click para selecionar mais de uma bandeira!,Aperte CTRL + Click para selecionar mais de uma bandeira!
+Atualização de Status,Atualização de Status
+Aura,Aura
+Autorização com AVS,Autorização com AVS
+Autorização e Captura,Autorização e Captura
+Autorização,Autorização
+Banco Desconhecido,Banco Desconhecido
+Banco do Brasil,Banco do Brasil
+Bandeira Desconhecida,Bandeira Desconhecida
+Bandeiras de Cartões Permitidas,Bandeiras de Cartões Permitidas
+Boleto Bancário,Boleto Bancário
+Boleto/Cartões Crédito e Débito/Débito Online,Boleto/Cartões Crédito e Débito/Débito Online
+Bradesco,Bradesco
+Cancelamento Automático,Cancelamento Automático
+Cancelamento de Autorização,Cancelamento de Autorização
+Captura,Captura
+Cartão de Crédito - %d parcela(s),Cartão de Crédito - %d parcela(s)
+Cartão de Crédito,Cartão de Crédito
+Cartão de Débito,Cartão de Débito
+Cartão de Testes / Bandeira Desconhecida,Cartão de Testes / Bandeira Desconhecida
+Charge Back,Charge Back
+Checkout Cielo,Checkout Cielo
+Comprovante de Vendas,Comprovante de Vendas
+Confirmação de Pagamento,Confirmação de Pagamento
+Consulta de Transação,Consulta de Transação
+Credz,Credz
+Criada solicitação de transação de pagamento.,Criada solicitação de transação de pagamento.
+CV / Autorização / TID,CV / Autorização / TID
+Data/Hora da Transação,Data/Hora da Transação
+Data/Hora,Data/Hora
+Define a mensagem de erro que será exibida ao cliente quando ocorrerem erros com o módulo ou erros de comunicação com o gateway de pagamento,Define a mensagem de erro que será exibida ao cliente quando ocorrerem erros com o módulo ou erros de comunicação com o gateway de pagamento
+Define a posição na qual este método de pagamento será exibido se houverem outros métodos de pagamento disponíveis,Define a posição na qual este método de pagamento será exibido se houverem outros métodos de pagamento disponíveis
+Define a quantidade máxima de produtos em uma compra para que este método de pagamento continue disponível,Define a quantidade máxima de produtos em uma compra para que este método de pagamento continue disponível
+Define a quantidade mínima de produtos em uma compra para que este método de pagamento esteja disponível,Define a quantidade mínima de produtos em uma compra para que este método de pagamento esteja disponível
+Define a versão do certificado SSL utilizado para transações http,Define a versão do certificado SSL utilizado para transações http
+Define o status de uma nova compra realizada com este método de pagamento,Define o status de uma nova compra realizada com este método de pagamento
+Define o valor total máximo de uma compra para que este método de pagamento continue disponível,Define o valor total máximo de uma compra para que este método de pagamento continue disponível
+Define o valor total mínimo de uma compra para que este método de pagamento esteja disponível,Define o valor total mínimo de uma compra para que este método de pagamento esteja disponível
+Define qualquer taxa de desconto percentual a ser aplicada quando o método de pagamento selecionado for boleto bancário.,Define qualquer taxa de desconto percentual a ser aplicada quando o método de pagamento selecionado for boleto bancário.
+Define qualquer taxa de desconto percentual a ser aplicada quando o método de pagamento selecionado for cartão de crédito sem parcelar (à vista).,Define qualquer taxa de desconto percentual a ser aplicada quando o método de pagamento selecionado for cartão de crédito sem parcelar (à vista).
+Define qualquer taxa de desconto percentual a ser aplicada quando o método de pagamento selecionado for cartão de débito.,Define qualquer taxa de desconto percentual a ser aplicada quando o método de pagamento selecionado for cartão de débito.
+Define se erros ocorridos com o módulo ou erros de comunicação com o gateway de pagamento serão exibidos diretamente ao cliente. Problemas relacionados ao cartão de crédito/débito sempre serão exibidos.,Define se erros ocorridos com o módulo ou erros de comunicação com o gateway de pagamento serão exibidos diretamente ao cliente. Problemas relacionados ao cartão de crédito/débito sempre serão exibidos.
+Desconto concedido: %s,Desconto concedido: %s
+Descrição na Fatura do Cartão,Descrição na Fatura do Cartão
+Detalhes da Transação,Detalhes da Transação
+Diners Club,Diners Club
+Discover,Discover
+Débito Online (Banco do Brasil),Débito Online (Banco do Brasil)
+Débito Online (Bradesco),Débito Online (Bradesco)
+Débito Online - %s,Débito Online - %s
+Elo,Elo
+Encaminhado para pagamento,Encaminhado para pagamento
+Erro do sistema de pagamentos: URL de pagamento indefinido. Por favor tente novamente em alguns instantes!,Erro do sistema de pagamentos: URL de pagamento indefinido. Por favor tente novamente em alguns instantes!
+Erro(s) do sistema de pagamentos:%s%s%s%sPor favor tente novamente em alguns instantes!,Erro(s) do sistema de pagamentos:%s%s%s%sPor favor tente novamente em alguns instantes!
+Estorno,Estorno
+Exibir Erros,Exibir Erros
+Finalizar Pagamento &gt;&gt;,Finalizar Pagamento &gt;&gt;
+greater than or equal to,maior ou igual que
+Habilitar este método de pagamento para seus clientes,Habilitar este método de pagamento para seus clientes
+Habilitar Proteção Anti-Fraude,Habilitar Proteção Anti-Fraude
+Habilitar,Habilitar
+Hiper,Hiper
+Hipercard,Hipercard
+ID da Transação (TID): %s,ID da Transação (TID): %s
+ID da Transação,ID da Transação
+Identificador de transação Checkout: %s,Identificador de transação Checkout: %s
+Invalid license file.,Arquivo de licença inválido.
+Invalid value for the field '%s' of the section/module '%s'! Please check the instructions of the field and try again.,Valor inválido para o campo '%s' da seção/módulo '%s'! Por favor verifique as instruções do campo e tente novamente.
+Invalid value for the field '%s' of the section/module '%s': %s,Valor inválido para o campo '%s' da seção/módulo '%s': %s
+JCB,JCB
+less than or equal to,menor ou igual que
+License,Licença
+Listar Transações,Listar Transações
+Load License,Carregar Licença
+Maestro (Débito),Maestro (Débito)
+MasterCard,MasterCard
+Mensagem de Erro Padrão,Mensagem de Erro Padrão
+Merchant ID / Identificação da Loja,Merchant ID / Identificação da Loja
+Module Version,Versão do Módulo
+Notificação de status recebida.,Notificação de status recebida.
+Número de Autorização,Número de Autorização
+Número do Boleto: %s,Número do Boleto: %s
+O arquivo '%s' não pôde ser apagado.,O arquivo '%s' não pôde ser apagado.
+O CEP de entrega não é válido!,O CEP de entrega não é válido!
+O CEP de origem da loja não foi definido! Por favor entre em contato com o atendimento da loja.,O CEP de origem da loja não foi definido! Por favor entre em contato com o atendimento da loja.
+O CEP de origem da loja não é válido! Por favor entre em contato com o atendimento da loja.,O CEP de origem da loja não é válido! Por favor entre em contato com o atendimento da loja.
+O módulo antigo 'MasterShop_Cielo' foi removido com sucesso.,O módulo antigo 'MasterShop_Cielo' foi removido com sucesso.
+O módulo antigo 'MasterShop_Cielo' pode não ter sido completamente removido:<br />%s,O módulo antigo 'MasterShop_Cielo' pode não ter sido completamente removido:<br />%s
+O número de telefone com DDD não é válido!,O número de telefone com DDD não é válido!
+O número do CPF ou CNPJ das informações de cobrança não é válido!,O número do CPF ou CNPJ das informações de cobrança não é válido!
+O valor máximo configurado (%f) para a ativação do método de pagamento foi ultrapassado (%f).,O valor máximo configurado (%f) para a ativação do método de pagamento foi ultrapassado (%f).
+O valor mínimo configurado (%f) para a ativação do método de pagamento não foi atingido (%f).,O valor mínimo configurado (%f) para a ativação do método de pagamento não foi atingido (%f).
+Ocorreu um erro com a resposta da plataforma de pagamentos. Por favor tente novamente em alguns instantes!,Ocorreu um erro com a resposta da plataforma de pagamentos. Por favor tente novamente em alguns instantes!
+Ocorreu um erro de conexão com a plataforma de pagamentos. Por favor tente novamente em alguns instantes!,Ocorreu um erro de conexão com a plataforma de pagamentos. Por favor tente novamente em alguns instantes!
+Ocorreu um erro de transação com a plataforma de pagamentos. Por favor tente novamente em alguns instantes!,Ocorreu um erro de transação com a plataforma de pagamentos. Por favor tente novamente em alguns instantes!
+Operadora,Operadora
+Operação Desconhecida,Operação Desconhecida
+Operação,Operação
+Ordem de Exibição,Ordem de Exibição
+Outras,Outras
+Padrão,Padrão
+Pagamento cancelado pelo lojista no backoffice da plataforma de pagamentos.,Pagamento cancelado pelo lojista no backoffice da plataforma de pagamentos.
+Pagamento negado pela plataforma de pagamentos.,Pagamento negado pela plataforma de pagamentos.
+Pagamento não finalizado ou com erros. Verifique o histórico de status do pedido.,Pagamento não finalizado ou com erros. Verifique o histórico de status do pedido.
+Pagamento Não Finalizado,Pagamento Não Finalizado
+Pagamento sendo processado...,Pagamento sendo processado...
+Pedido de Transação,Pedido de Transação
+Pedido,Pedido
+Qtd. Máxima de Produtos,Qtd. Máxima de Produtos
+Qtd. Mínima de Produtos,Qtd. Mínima de Produtos
+Resultado,Resultado
+Seu navegador será redirecionado para a página de pagamento após a finalização da compra.,Seu navegador será redirecionado para a página de pagamento após a finalização da compra.
+SSL 1,SSL 1
+SSL 3,SSL 3
+Status de Novas Compras,Status de Novas Compras
+Taxa de Desconto para Pagamento via Boleto Bancário (%),Taxa de Desconto para Pagamento via Boleto Bancário (%)
+Taxa de Desconto para Pagamento via Crédito à Vista (%),Taxa de Desconto para Pagamento via Crédito à Vista (%)
+Taxa de Desconto para Pagamento via Débito (%),Taxa de Desconto para Pagamento via Débito (%)
+The current domain url is not licensed.,O endereço de domínio atual não está licenciado.
+The license directory (%s) does not exists and could not be created. Please check the directory permissions!,A pasta de licença (%s) não existe e não pôde ser criada. Por favor verifique as permissões de pastas!
+The value for the field '%s' of the section/module '%s' must be filled with a minimum value of '0.01'. <br />You may also leave the field blank!,O valor do campo '%s' da seção/módulo '%s' deve ser preenchido com um valor mínimo de '0.01'. <br />Você pode também deixar o campo em branco!
+The value for the field '%s' of the section/module '%s' must be filled with a minimum value of '1'. <br />You may also leave the field blank!,O valor do campo '%s' da seção/módulo '%s' deve ser preenchido com um valor mínimo de '1'. <br />Você também pode deixar o campo em branco!
+The value for the field '%s' of the section/module '%s' must be filled with a value %s the value of the field '%s'.,O valor do campo '%s' da seção/módulo '%s' deve ser preenchido com um valor %s o valor do campo '%s'.
+The value of the field '%s' of the section/module '%s' was automatically corrected to the field value specifications.,O valor do campo '%s' da seção/módulo '%s' foi automaticamente corrigido para as especificações de valores para o campo.
+TLS 1,TLS 1
+TLS 1.0,TLS 1.0
+TLS 1.1,TLS 1.1
+TLS 1.2,TLS 1.2
+Transação cancelada pelo consumidor junto ao emissor do cartão.,Transação cancelada pelo consumidor junto ao emissor do cartão.
+Transação confirmada,Transação confirmada
+Transações de Cartões de Crédito/Débito,Transações de Cartões de Crédito/Débito
+Título exibido para este método de pagamento na página de finalização da compra,Título exibido para este método de pagamento na página de finalização da compra
+Título,Título
+Unknown license error.,Erro de licença desconhecido.
+Unlicensed. Please upload your license file!,Não licenciado. Por favor carregue seu arquivo de licença!
+Use apenas números e ponto para separar casas decimais!,Use apenas números e ponto para separar casas decimais!
+Use apenas números!,Use apenas números!
+Utilizar apenas números e ponto para separar casas decimais!,Utilizar apenas números e ponto para separar casas decimais!
+Validação de Cartão,Validação de Cartão
+Valor Máximo da Compra,Valor Máximo da Compra
+Valor Mínimo da Compra,Valor Mínimo da Compra
+MasterShop - Checkout Cielo,MasterShop - Checkout Cielo
+Vencimento: %s,Vencimento: %s
+Versão SSL,Versão SSL
+Visa Electron (Débito),Visa Electron (Débito)
+Visa,Visa
+Visualizar Detalhes da Transação,Visualizar Detalhes da Transação

@@ -1,0 +1,23 @@
+name: 🚀 Implantar site por push
+on:
+  push:
+    branches:
+       - main
+        
+
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Obtenha o codigo mais recente
+      uses: actions/checkout@v3
+    
+    - name: 📂 Sincronizar arquivos
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ secrets.FTP_HOST }}
+        port: ${{ secrets.FTP_PORT }}
+        username: ${{ secrets.FTP_USER }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        server-dir: publu/

@@ -1,0 +1,41 @@
+<ul class="cdz-top-link">
+
+    <!--FAVORITOS-->
+    <!--
+    <li class="link wishlist">
+        <a href="<?php echo $this->getUrl('wishlist') ?>"><?php echo $this->__('Favoritos') ?></a>
+    </li>
+    -->
+
+
+    <?php  if(Mage::getSingleton('customer/session')->isLoggedIn()): ?>
+
+
+    <li class="link link-account">
+        <a href="<?php echo $this->getUrl('customer/account') ?>"><?php echo $this->__('Minha conta') ?></a>
+    </li>
+
+    <!--SAIR-->
+    <li class="link logout">
+        <a href="<?php echo $this->getUrl('customer/account/logout') ?>"><?php echo $this->__('Sair') ?></a>
+    </li>
+
+
+    <?php else: ?>
+
+    <!--MINHA CONTA-->
+    <li class="link signup">
+    <a href="https://crgr.com.br/cadastre-se-crgr"><?php echo $this->__('Cadastrar') ?></a>
+    </li>
+
+    <!--ENTRAR-->
+    <li class="link cdz-top-login cdz-dropdown">
+        <a class="cdz-trigger" href="javascript:void(0)"><?php echo $this->__('Entrar') ?></a>
+
+
+        <div class="cdz-dropdown-content" style="display:none;">
+            <?php echo $this->getParentBlock()->getChild('customer_form_mini_login')->setSuffix($this->getSuffix())->toHtml(); ?>                            
+        </div>
+    </li>                        
+    <?php endif ?>
+</ul>

@@ -1,0 +1,22 @@
+        name: 🚀 Implantar site por push
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Obtenha o código mais recente
+        uses: actions/checkout@v3
+
+      - name: 🔐 Configurar FTP
+        run: |
+          sudo apt-get install -y lftp
+
+      - name: 📂 Sincronizar arquivos
+        run: |
+          lftp -u "${{ secrets.FTP_USER }}","${{ secrets.FTP_PASSWORD }}" -e "mirror -R --only-newer --delete ./ /public_html/; quit" ${{ secrets.FTP_HOST }}
+
