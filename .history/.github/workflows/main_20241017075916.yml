@@ -21,6 +21,7 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         server-dir: /public_html/  # Diretório remoto na Hostinger
         local-dir: ./  # Diretório local que será sincronizado
+        method: sync  # Faz o deploy apenas dos arquivos modificados
         exclude: |
           **/.git*
           **/node_modules/**
