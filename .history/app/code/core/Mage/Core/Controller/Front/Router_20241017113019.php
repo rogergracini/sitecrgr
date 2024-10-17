@@ -68,7 +68,7 @@ class Mage_Core_Controller_Front_Router
             $url .= $this->_config->getName().'/';
         }
         
-        if (!empty($params)) {
+        if (!empty($params)) {    2
             $paramsStr = '';
             foreach ($params as $key=>$value) {
                 if (!isset($reservedKeys[$key]) && '_'!==$key[0] && !empty($value)) {
